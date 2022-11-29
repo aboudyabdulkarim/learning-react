@@ -1,0 +1,25 @@
+.first-section {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 23em;
+}
+
+.fs-txt + .fs-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.fs-txt > p {
+  width: 70%;
+}
+
+
+.fs-img >img{
+    width: 70%;
+    height: 70%;
+}
